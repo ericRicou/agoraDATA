@@ -11,7 +11,7 @@
 
 
 	//*
-	$histo = $bdd->prepare("INSERT INTO `repertoire_are` (`Nom` ,`Prenom` ,`pass` ,`role`,`login`, `adresse`, `e_mail`,`port`, `fixe`, `fonction`, `pass1`  )
+	$histo = $bdd->prepare("INSERT INTO `repertoire_are` (`Nom` ,`Prenom` ,`pass` , `adresse`, `e_mail`,`port`, `fixe`, `fonction`, `pass1`  )
 		VALUES ('', '', '', '', '', '', '', '', '', '', '')");
 	$histo->execute();
 	//*/
